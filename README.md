@@ -1,9 +1,12 @@
 # AppsComparison
-## Website
-[Sensor Tower - Top Charts](https://app.sensortower.com/top-charts?os=ios&category=0&country=US&date=2025-01-20&device=iphone)
+## Objective
+The objective of this project is to scrap data using selenium and represent them using tableau.
 
 ## Background
-The above-mentioned website provides the top 75 iOS apps in the USA for a given date. These 75 apps are categorized into **Free**, **Paid**, and **Top Grossing**. By changing the `country` parameter in the URL, you can retrieve the corresponding top iOS apps for other countries.
+The data source below provides the top 75 iOS apps in the USA for a given date. These 75 apps are categorized into **Free**, **Paid**, and **Top Grossing**. By changing the `country` parameter in the URL, you can retrieve the corresponding top iOS apps for other countries.
+
+## Data Source
+[Sensor Tower - Top Charts](https://app.sensortower.com/top-charts?os=ios&category=0&country=US&date=2025-01-20&device=iphone)
 
 ## Project Idea
 This project will:
@@ -20,6 +23,14 @@ This project will involve:
 - Build a web scraper for dynamic data extraction.
 - Analyze trends in **Entertainment** and **Education** apps.
 - Gain insights into app popularity across countries.
+
+## Data Scraping and Preporcessing
+I've scrapped data using selenium. Since there were a lot of data to scrape, so I have to do it by chunks. Each of the chunks got 1000 rows and the final dataset got almost `10,000` rows. Few data removed since they were corrupted. </br>
+After scraping the data, I've preprocessed them, adding the continents. 
+
+## [Dashboard Preview](https://public.tableau.com/app/profile/kazi.mashry/viz/iOSAppsDemographic/Dashboard1?publish=yes)
+![Dashboard Preview](dashboard.png)
+
 
 ## Build From Source
 1. Clone repo
@@ -43,8 +54,4 @@ pip install -r requirements.txt
 7. Following above technique, we'll get 1_10.csv, 2_10.csv upto 10_10.csv. 
 8. Then we'll merge and get the final dataset by running ``data_transformation.ipynb`` file
 
-## Dashboard Preview
-![Dashboard Preview](dashboard.png)
-
-> **Click the image to view the interactive dashboard.**
-[View Interactive Dashboard](https://public.tableau.com/app/profile/kazi.mashry/viz/iOSAppsDemographic/Dashboard1?publish=yes)
+<b>Foot note: </b> If you want to discuss about the project email me at: <link>kazi.mashry01@gmail.com</link>
