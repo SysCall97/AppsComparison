@@ -29,7 +29,7 @@ I've scrapped data using selenium. Since there were a lot of data to scrape, so 
 After scraping the data, I've preprocessed them, adding the continents. 
 
 ## [Dashboard Preview](https://public.tableau.com/app/profile/kazi.mashry/viz/iOSAppsDemographic/Dashboard1?publish=yes)
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](preview.png)
 
 
 ## Build From Source
