@@ -49,9 +49,9 @@ source ./venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-5. First run ``app_data_scrapping.ipynb`` file for scrapping data
+5. First run ``scraping.ipynb`` file for scraping data
 6. Since there are a lot of data to scrap and we have to reload the website several times, so it's highly possible that the site might stop from loading. In this case we have to scrap data by chunk of 10 countries, save them into separate csv file, then merge.
 7. Following above technique, we'll get 1_10.csv, 2_10.csv upto 10_10.csv. 
-8. Then we'll merge and get the final dataset by running ``data_transformation.ipynb`` file
+8. Then we'll merge and get the final dataset by running ``preprocessing.ipynb`` file
 
 <b>Foot note: </b> If you want to discuss about the project email me at: <link>kazi.mashry01@gmail.com</link>
