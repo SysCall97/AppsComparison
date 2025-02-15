@@ -1,6 +1,6 @@
 # AppsComparison
 ## Objective
-The objective of this project is to scrap data using selenium and represent them using tableau.
+The objective of this project is to scrape data using selenium and represent them using tableau.
 
 ## Background
 The data source below provides the top 75 iOS apps in the USA for a given date. These 75 apps are categorized into **Free**, **Paid**, and **Top Grossing**. By changing the `country` parameter in the URL, you can retrieve the corresponding top iOS apps for other countries.
