@@ -26,7 +26,7 @@ This project will involve:
 
 ## Data Scraping and Preporcessing
 I've scrapped data using selenium. Since there were a lot of data to scrape, so I have to do it by chunks. Each of the chunks got 1000 rows and the final dataset got almost `10,000` rows. Few data removed since they were corrupted. </br>
-After scraping the data, I've preprocessed them, adding the continents. 
+After scraping the data, I've preprocessed them by merging the chunks of data, adding the continents column. 
 
 ## Interesting Findings:
  - Top 3 publishers based on the number of distinct country users are of educational category.
