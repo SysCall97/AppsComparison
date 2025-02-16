@@ -34,7 +34,7 @@ After scraping the data, I've preprocessed them by merging the chunks of data, a
  - In North America, the price of educational app is much higher than the entertainment app, whereas the South America is showing the opposite.
 
 ## [Dashboard Preview](https://public.tableau.com/app/profile/kazi.mashry/viz/iOSAppsDemographic/Dashboard1?publish=yes)
-![Dashboard Preview](preview.png)
+![Dashboard Preview](dashboard.png)
 
 
 ## Build From Source
